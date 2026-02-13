@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Suomi Ravintola Web 苏米餐厅建站 | 芬兰华人餐厅专属网站设计 | 提升Google排名与Wolt外卖转化</title>
+    <meta name="title" content="Suomi Ravintola Web 苏米餐厅建站 | 芬兰华人餐厅专属网站设计">
+    <meta name="description" content="专为芬兰华人餐饮业主提供专业的网站建设与维护。399€起步，提供芬/英/中三语支持，帮助您的餐厅摆脱外卖平台高额佣金，通过谷歌地图SEO获取更多本地食客。">
+    <meta name="keywords" content="芬兰中餐网站设计, 赫尔辛基餐饮建站, 餐厅网页制作, 芬兰华人创业, Wolt推广, Foodora优化, 芬兰网站维护, Suomi Ravintola Web, 餐厅菜单数字化">
+    <meta name="author" content="Suomi Ravintola Web">
+    <meta name="language" content="zh-CN">
+    <meta name="geo.region" content="FI">
+    <meta name="geo.placename" content="Finland">
+    <meta name="google-site-verification" content="JNaKJW1g1BZVcFATCIDP4_ytru5LMGXSBZk02j3gBsE" />
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://j-d-liu.github.io/suomi-ravintola-web/">
+    <meta property="og:title" content="Suomi Ravintola Web | 让芬兰食客更容易找到您的餐厅">
+    <meta property="og:description" content="专业餐厅网站设计，低成本获取私域流量。1周内上线，支持.fi域名与谷歌SEO优化。">
+    <meta property="og:image" content="https://j-d-liu.github.io/suomi-ravintola-web/res/hero-image.jpg"> <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://j-d-liu.github.io/suomi-ravintola-web/">
+    <meta property="twitter:title" content="Suomi Ravintola Web | 芬兰华人餐厅建站首选">
+    <meta property="twitter:description" content="399€起，打造您的餐厅官网。告别30%佣金，开启数字化经营。">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://j-d-liu.github.io/suomi-ravintola-web/" />
+
+    <style>
+        :root {
+            --fin-blue: #002F6C; /* Finnish Flag Blue */
+            --clean-white: #ffffff;
+            --alert-red: #E74C3C; /* Call to action color */
+            --bg-gray: #f4f6f8;
+            --text-main: #2c3e50;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif; }
+        
+        body { color: var(--text-main); background-color: var(--clean-white); line-height: 1.6; }
+
+        /* Navigation */
+        nav {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 1rem 5%; background: var(--clean-white);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 1000;
+        }
+        .logo { font-size: 1.4rem; font-weight: 800; color: var(--fin-blue); }
+        .logo span { color: var(--alert-red); }
+        .nav-btn { background: var(--fin-blue); color: white; padding: 8px 20px; text-decoration: none; border-radius: 4px; font-weight: bold; }
+
+        /* Hero Section */
+        header {
+            background: linear-gradient(rgba(0,47,108,0.8), rgba(0,47,108,0.8)), url('res/hero.png'); /* Local hero image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: white; padding: 80px 20px; text-align: center;
+        }
+        header h1 { font-size: 2.5rem; margin-bottom: 15px; }
+        header p { font-size: 1.1rem; max-width: 700px; margin: 0 auto 30px; opacity: 0.9; }
+        .hero-btn { background: var(--alert-red); color: white; padding: 15px 30px; font-size: 1.1rem; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block; transition: 0.3s; }
+        .hero-btn:hover { background: #c0392b; transform: scale(1.05); }
+
+        /* Problem vs Solution */
+        .section { padding: 60px 5%; }
+        .bg-gray { background: var(--bg-gray); }
+        .section-title { text-align: center; margin-bottom: 40px; color: var(--fin-blue); }
+        
+        .comparison-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; max-width: 1000px; margin: 0 auto;
+        }
+        .compare-card { padding: 30px; background: white; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+        .compare-card.bad { border-top: 5px solid #7f8c8d; }
+        .compare-card.good { border-top: 5px solid var(--alert-red); transform: scale(1.02); }
+        
+        ul.check-list { list-style: none; margin-top: 20px; }
+        ul.check-list li { margin-bottom: 10px; padding-left: 25px; position: relative; }
+        ul.check-list li::before { content: "✔"; color: green; position: absolute; left: 0; }
+        ul.check-list.cross li::before { content: "✖"; color: red; }
+
+        /* Portfolio / Features */
+        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; max-width: 1200px; margin: 0 auto; text-align: center; }
+        .feature-item img { width: 100%; border-radius: 8px; margin-bottom: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        
+        /* Pricing */
+        .pricing-container { max-width: 900px; margin: 0 auto; text-align: center; }
+        .price-card { border: 2px solid var(--fin-blue); border-radius: 10px; padding: 40px; background: white; }
+        .price { font-size: 2.5rem; color: var(--fin-blue); font-weight: bold; margin: 20px 0; }
+        .sub-price { font-size: 0.9rem; color: #666; }
+
+        /* Footer */
+        footer { background: var(--fin-blue); color: white; padding: 40px 5%; text-align: center; }
+        .wechat-box { background: white; color: var(--text-main); display: inline-block; padding: 15px; border-radius: 8px; margin-top: 20px; }
+        
+        /* Mobile adjustment */
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.8rem; }
+            .compare-card.good { transform: scale(1); }
+
+            /* Make the Chinese span appear on a second line and ensure nav fits */
+            nav { flex-wrap: nowrap; align-items: center; }
+            .logo { font-size: 1.2rem; line-height: 1.1; }
+            .logo span { display: block; font-size: 0.85rem; font-weight: 600; color: var(--fin-blue); margin-top: 2px; }
+            .nav-btn { padding: 6px 12px; font-size: 0.95rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Suomi Ravintola Web <span>苏米餐厅建站 </span></div>
+        <a href="#contact" class="nav-btn">联系我们</a>
+    </nav>
+
+    <header>
+        <h1>让芬兰食客更容易找到您的餐厅</h1>
+        <p>不要只依赖 Wolt 和 Foodora。拥有一个属于自己的专业网站，提升谷歌排名，建立私域流量，让顾客直接找到您。</p>
+        <br>
+        <a href="#contact" class="hero-btn">399€ 起，打造您的餐厅官网</a>
+    </header>
+
+    <section class="section bg-gray">
+        <h2 class="section-title">为什么您的餐厅需要独立网站？</h2>
+        <div class="comparison-grid">
+            <div class="compare-card bad">
+                <h3>🚫 仅依赖外卖平台</h3>
+                <ul class="check-list cross">
+                    <li>每单抽取 25%-30% 高额佣金</li>
+                    <li>无法获取顾客真实联系方式</li>
+                    <li>在谷歌地图 (Google Maps) 上搜索排名低</li>
+                    <li>受制于平台规则，随时被动</li>
+                </ul>
+            </div>
+            <div class="compare-card good">
+                <h3>✅ 拥有独立官网 (苏米建站)</h3>
+                <ul class="check-list">
+                    <li><strong>0 佣金</strong>：顾客看菜单，电话/微信直接下单</li>
+                    <li><strong>提升形象</strong>：展示高清菜品图，提升客单价</li>
+                    <li><strong>SEO 优化</strong>：顾客搜 "附近中餐" 优先展示您</li>
+                    <li><strong>完全掌控</strong>：随时更新菜单、假期通知</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">专为芬兰市场设计的网站风格</h2>
+        <div class="features-grid">
+            <div class="feature-item">
+                <img src="res/1.png" alt="Mobile Menu Design">
+                <h3>📱 完美适配手机端</h3>
+                <p>90% 的芬兰人通过手机搜索餐厅。我们的网站在 iPhone 和 Android 上操作流畅。</p>
+            </div>
+            <div class="feature-item">
+                <img src="res/2.png" alt="Bilingual Menu">
+                <h3>🇫🇮 芬/英/中 三语切换</h3>
+                <p>本地化芬兰语菜单设计，消除语言障碍，让本地顾客点餐更自信。</p>
+            </div>
+            <div class="feature-item">
+                <img src="res/3.png" alt="Google Optimization">
+                <h3>📍 谷歌地图深度绑定</h3>
+                <p>我们将您的官网链接到 Google Maps 商家页面，直接增加曝光率。</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-gray">
+        <div class="pricing-container">
+            <h2 class="section-title">简单透明的收费标准</h2>
+            <p>无隐形费用。一次付费，长期无忧。</p>
+            <br>
+            <div class="price-card">
+                <h3>全包建站套餐 (Startup Package)</h3>
+                <div class="price">399€ <span style="font-size: 1rem; color: #666; font-weight: normal;">(一次性设计费)</span></div>
+                <p class="sub-price">+ 20€ / 月 (包含服务器、域名 .fi 或 .com、技术维护)</p>
+                <br>
+                <div style="text-align: left; display: inline-block;">
+                    <ul class="check-list">
+                        <li>包含 5 个页面 (首页, 菜单, 关于, 相册, 联系)</li>
+                        <li>赠送 .fi 或 .com 域名一年</li>
+                        <li><strong>免费</strong> 菜单上传与修改 (每月一次)</li>
+                        <li><strong>赠送</strong> 餐厅二维码桌贴设计 (QR Code)</li>
+                    </ul>
+                </div>
+                <br><br>
+                <a href="#contact" class="hero-btn">预约建站</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="pricing-container">
+            <h2 class="section-title">联系我们，1周内上线</h2>
+            <p>我们讲中文！请直接添加微信咨询，或发送邮件。</p>
+            
+            <div class="wechat-box">
+                <h3 style="color: green;">WeChat / 微信</h3>
+                <p style="font-size: 1.5rem; font-weight: bold; margin: 10px 0;">ID: JDLiu-CN</p>
+                <p style="font-size: 0.9rem; color: #888;">扫一扫或搜索ID添加</p>
+            </div>
+
+            <!--div style="margin-top: 30px;">
+                <p>📧 Email: contact@suomiweb.fi</p>
+                <p>📞 Phone: +358 40 123 4567</p>
+            </div-->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Suomi Ravintola Web (苏米餐厅建站). 专注芬兰餐饮数字化.</p>
+    </footer>
+
+</body>
+</html>

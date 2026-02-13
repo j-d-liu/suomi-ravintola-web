@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace yourdomain.fi with your actual registered domain
+Sitemap: https://j-d-liu.github.io/suomi-ravintola-web/
